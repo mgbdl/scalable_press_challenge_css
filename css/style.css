@@ -1,0 +1,73 @@
+/* Reset Styling */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Main Styling */
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+}
+
+h1, h2, h3 {
+    padding: 20px;
+}
+
+p {
+    padding: 0 10px;
+}
+
+/* Utilities */
+
+#wrapper {
+    max-width: 733px;
+    margin: 0 auto;
+}
+
+/* Cards */
+
+.card {
+    width: 141px;
+    height: 182px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Media Queries */
+
+/* Smartphone */
+
+@media(max-width: 500px) {
+    #wrapper {
+        max-width: 733px;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        float: left;
+        height: 100%;
+    }
+
+    .card p {
+        float: right;
+        height: 100%;
+        margin: 16% 11%;
+    }
+
+    .card p {
+        font-size: 43px;
+        font-weight: bold;
+    }
+}
+
+
+
